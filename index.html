@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="Brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of Jubin Nautiyal</h1>
+            <div class="songItemContainer">
+            <div class="songItem">
+                <img src="Meri_Maa.jpg" alt="1">
+                <span class="songName">Meri Maa Ke Barabar Koi Nahi</span>
+                <span class="songListPlay"><span class="timespan">04.58</span><i id="1" class="fa-solid songItemPlay duotone fa-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="govind_bolo.jpg" alt="1">
+                <span class="songName">Govind Bolo Hari</span>
+                <span class="songListPlay"><span class="timespan">04.58</span><i id="2" class="fa-solid songItemPlay duotone fa-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="Shri_Krishna_Govind.jpg" alt="1">
+                <span class="songName">Shri Krishna Govind Hare Murari</span>
+                <span class="songListPlay"><span class="timespan">04.58</span><i id="3" class="fa-solid songItemPlay duotone fa-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="kaun_khete_hai.jpg" alt="1">
+                <span class="songName">Kaun Kehte Hain Bhagwan Aate Nahi</span>
+                <span class="songListPlay"><span class="timespan">04.58</span><i id="4" class="fa-solid songItemPlay duotone fa-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="Shish_Nawata_hoon.jpg" alt="1">
+                <span class="songName">Shish Nawata Hoon</span>
+                <span class="songListPlay"><span class="timespan">04.58</span><i id="5" class="fa-solid songItemPlay duotone fa-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="Mein_Balak.jpg" alt="1">
+                <span class="songName">Mein Balak Tu Mata</span>
+                <span class="songListPlay"><span class="timespan">04.58</span><i id="6" class="fa-solid songItemPlay duotone fa-play"></i></span>
+            </div>
+        </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="Bottom">
+        <input type="range" class="range" id="MyProgressBar" min="0" max="100" value="0">
+        <div class="icons">
+            <i class="fa-solid fa-step-backward" id="backward"></i>
+            <i class="fa-solid fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-step-forward" id="forward"></i>
+        </div>
+        <div class="songinfo"><img src="music_pattern.gif" width="50px" alt="" id="gif"><span id="masterSong">Meri Maa Ke Barabar Koi Nahi</span></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a91e33c909.js" crossorigin="anonymous"></script>
+</body>
+</html>

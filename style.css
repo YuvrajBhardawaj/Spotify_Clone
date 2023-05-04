@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Oswald:wght@500&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+}
+.Brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    
+}
+.Brand img{
+    padding: 0px 8px;
+    width: 45px;
+}
+nav ul li{
+    padding: 0px 15px;
+}
+nav ul{ 
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+}
+.container{
+    min-height: 75vh;
+    background-color: darkgrey;
+    color: azure;
+    font-family: 'Bruno Ace SC', cursive;
+    display: flex;
+    margin: 20px auto;
+    width: 1280px;
+    border-radius: 20px;
+    padding: 10px;
+    background-image: url('music.jpg');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.Bottom{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    font-size: 30px;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}
+.icons{
+    margin-top: 20px;
+    cursor: pointer;
+}
+#MyProgressBar{
+    cursor: pointer;
+    width: 80%;
+}
+.songItemContainer{
+    margin-top: 10%;
+}
+.songItem{
+    border: 2px solid;
+    height: 50px;
+    display: flex;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    color: black;
+    margin: 20px 0;
+    border-radius: 40px;
+}
+.songItem img{
+    width: 50px;
+    margin: 0 20px;
+    border-radius: 50%;
+    transition: opacity 0.4s ease-in;
+}
+.timespan{
+    margin: 0 10px;
+}
+.songListPlay{
+    margin: 0px 20px;
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    display: flex;
+    justify-content:center;
+    font-size: small;
+    font-family: 'Bruno Ace SC', cursive;
+    right: 10vw;
+}
